@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #383838;
+    color: #c2c2c2;
+    text-align: center;
+}
+
+/* Navbar Styles */
+nav {
+    background-color: #383838;
+    border: 1px solid #6c757d;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    font-family: "Gothic";
+}
+
+nav h1 {
+    margin: 0;
+    font-size: 1.8rem;
+}
+
+/* Main Content Styles */
+main {
+    max-width: 600px;
+    margin: 2rem auto;
+    padding: 1rem;
+    text-align: center;
+    background: #383838;
+    border: 1px solid #6c757d;
+    border-radius: 8px;
+    /*  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); */
+}
+
+h1 {
+    font-size: 1.8rem;
+    margin-bottom: 0.5rem;
+}
+
+p {
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+    color: #6c757d;
+}
+
+#string-display {
+    font-size: 1.2rem;
+    padding: 1rem;
+    margin: 1rem auto;
+    border: 2px dashed #6c757d;
+    border-radius: 5px;
+    color: #c2c2c2;
+    background: #202020;
+}
+
+button {
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    margin: 0.5rem;
+    transition: background-color 0.3s ease;
+}
+
+#generate-button {
+    background-color: white;
+    color: #6c757d;
+    border: 1px solid #6c757d;
+}
+
+#generate-button:hover {
+    background-color: #383838;
+}
+
+#reset-button {
+    background-color: #dc3545;
+    color: white;
+}
+
+#reset-button:hover {
+    background-color: #a71d2a;
+}
